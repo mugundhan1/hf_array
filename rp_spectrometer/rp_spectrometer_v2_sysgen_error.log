@@ -1,0 +1,35 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 2023.1                 /home/mugundhan/xilinx/Vivado/2023.1
+Matlab 9.12.0.2910573 (R2022a) Update 9 /home/mugundhan/matlab
+Vivado 2023.1                           /home/mugundhan/xilinx/Vivado/2023.1
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Rate and Type Checking Error
+     Block: 'rp_spectrometer_v2/FFT1'
+Error 0002: Rate and Type Checking Error
+     Block: 'rp_spectrometer_v2/FFT1'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'rp_spectrometer_v2/FFT1'
+
+Details:
+In 'Scale result by FFT length' configuration input data should be
+normalized, 'in_im' is expected to be Fix_14_13, but is Fix_14_0
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'rp_spectrometer_v2/FFT1'
+
+Details:
+Input port 'in_re' is expected to be Fix_14_0, but it is Fix_14_13
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------
